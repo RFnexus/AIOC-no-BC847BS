@@ -1490,7 +1490,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp 59c75dd1-9d9f-4ab4-a764-74d8b71f0dc6)
     )
-    (fp_text value "BC847BS" (at 0 2) (layer "F.Fab") hide
+    (fp_text value "MMDT3904" (at 0 2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5e2de5f-4d05-4dc3-8245-4c98c9d1701f)
     )
@@ -1859,7 +1859,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 867f00d8-3775-4292-a2f7-08d9ce95d4a4)
     )
-    (fp_text value "MIC5330-SSYML" (at 0 1.95 -90) (layer "F.Fab") hide
+    (fp_text value "MIC5332-SSYMT" (at 0 1.95 -90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 84e91ea3-dfa5-4d3d-b504-2bc0b46280c0)
     )
@@ -1885,7 +1885,7 @@
     (pad "2" smd roundrect (at -0.975 -0.25 270) (size 0.75 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ea3cbcd5-504c-406d-b164-d2d72f77d43c))
     (pad "3" smd roundrect (at -0.975 0.25 270) (size 0.75 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 22 "Net-(C3-Pad1)") (pinfunction "BYP") (pintype "passive") (tstamp 95dd666a-ee84-44ca-8856-3a2d218eb86a))
+      (net 22 "Net-(C3-Pad1)") (pinfunction "POR2") (pintype "open_collector") (tstamp 95dd666a-ee84-44ca-8856-3a2d218eb86a))
     (pad "4" smd roundrect (at -0.975 0.75 270) (size 0.75 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "/VIN") (pinfunction "EN2") (pintype "input") (tstamp 58f9e68f-f958-4843-9b1d-afa153d19cd2))
     (pad "5" smd roundrect (at 0.975 0.75 270) (size 0.75 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
